@@ -11,6 +11,7 @@ tagline:          'Personal website'
 description:      'Quantum computing researcher'
 url:              "https://alekseimalyshev.com"
 baseurl:          "/"
+fuck:             "https://alekseimalyshev.com/"
 
 author:
   name:           'Mark Otto'
