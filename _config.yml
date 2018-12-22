@@ -10,7 +10,7 @@ title:            Aleksei Malyshev
 tagline:          'Personal website'
 description:      'Quantum computing researcher'
 url:              aleksemalyshev.com
-baseurl:          "/"
+baseurl:          ""
 
 author:
   name:           'Mark Otto'
