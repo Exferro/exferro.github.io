@@ -11,7 +11,7 @@ title:            Aleksei Malyshev
 tagline:          'Personal website'
 description:      'Quantum computing researcher'
 url:              http://hyde.getpoole.com
-baseurl:          https://alekseimalyshev.com
+baseurl:          https://alekseimalyshev.com/
 
 author:
   name:           'Mark Otto'
