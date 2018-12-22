@@ -9,8 +9,8 @@ permalink:        pretty
 title:            Aleksei Malyshev
 tagline:          'Personal website'
 description:      'Quantum computing researcher'
-url:              alekseimalyshev.com
-baseurl:          ""
+url:              "https://alekseimalyshev.com"
+baseurl:          "/"
 
 author:
   name:           'Mark Otto'
