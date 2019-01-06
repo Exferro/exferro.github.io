@@ -45,6 +45,12 @@ html {
   }
 }
 
+#menu ul{
+  list-style: none;
+}
+#menu li{
+  display: inline;
+}
 
 /*
  * Sidebar

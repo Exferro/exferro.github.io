@@ -31,18 +31,20 @@
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
 <!--       <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
     </nav>
-    <u1>
-      {% if site.github_username %}
+    <div id="menu">
+      <u1>
+        {% if site.github_username %}
+          <li>
+            <a href="https://github.com/{{ site.github_username }}">
+              <i class="fa fa-github"></i> GitHub
+            </a>
+          </li>
+        {% endif %}
         <li>
-          <a href="https://github.com/{{ site.github_username }}">
-            <i class="fa fa-github"></i> GitHub
-          </a>
+          Hello
         </li>
-      {% endif %}
-      <li>
-        Hello
-      </li>
-    </u1>
+      </u1>
+  </div>
 
 
 <!--     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p> -->
