@@ -12,6 +12,8 @@ description:      ''
 url:              "https://alekseimalyshev.com"
 baseurl:          "/"
 gh_baseurl:       "https://alekseimalyshev.com/"
+# gh_baseurl:       ""
+social_media_url: "/public/img/icons"
 
 author:
   name:           'Mark Otto'

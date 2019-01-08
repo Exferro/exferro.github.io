@@ -1,7 +1,7 @@
 <div class="sidebar">
   <div class="container ">
     <div class="sidebar-about">
-      <img src="{{ site.gh_baseurl }}/public/Me.png">
+      <img src="{{ site.gh_baseurl }}/public/img/Me.png">
       <h1>
         <a href="{{ site.gh_baseurl }}">
           {{ site.title }}
@@ -31,7 +31,23 @@
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
 <!--       <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
     </nav>
-    <div id="menu">
+
+    <div class="icon-bar">
+      <a href="https://github.com/exferro">
+        <img src="{{ site.social_media_url }}/github.png" alt="GitHub" width="35"  height="35"/>
+      </a>
+      <a href="https://facebook.com/exferro">
+        <img src="{{ site.social_media_url }}/facebook.png" alt="Facebook" width="35"  height="35" />
+      </a>
+      <a href="https://linkedin.com/in/exferro">
+        <img src="{{ site.social_media_url }}/linkedin.png" alt="LinkedIn" width="35"  height="35"/>
+      </a>
+      <a href="https://vk.com/exferro">
+        <img src="{{ site.social_media_url }}/vk.png" alt="VK" width="35"  height="35"/>
+      </a>
+    </div>
+
+<!--     <div id="menu">
       <u1>
 
         {% if site.github_username %}
@@ -51,7 +67,7 @@
         {% endif %}
 
       </u1>
-  </div>
+  </div> -->
 
 
 <!--     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p> -->
