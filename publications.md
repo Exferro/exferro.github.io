@@ -1,6 +1,6 @@
 ---
 layout: page
-title: List of publications
+title: Publications
 ---
 Here is the list of my publications
 

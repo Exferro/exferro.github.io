@@ -4,39 +4,18 @@ title: Home
 ---
 <div class='page'> 
 	<h1 class='post-title>'>
-		Welcome to my personal website!
+		Welcome!
 	</h1>
-	At the moment there is no much to deal with, but I hope to add more information soon!
-</div>
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+	<p>
+    As you may already noticed, I am Aleksei and this is my personal website. Here I collect information about my life.
+  </p>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+  <p>
+    So, in related sections you may read about my research, my projects and my extra activities. Also, I place here list of my publications — just to be more swanky.
+  </p>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.gh_baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.gh_baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.gh_baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+  <p>
+    Anyone interested may of course look at my <a href="public/aleksei_malyshev_cv.pdf">CV</a>, but that is not that interesting :-)
+  </p>
+  
 </div>
