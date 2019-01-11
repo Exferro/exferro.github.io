@@ -27,7 +27,15 @@
     </nav>
 
     <div class="icon-bar">
-      <a href="https://github.com/exferro">
+      {% assign social_media_links = site.social_media %}
+      {% for node in social_media_links %}
+        {% if node.img != null %}
+          <a href="{{ node.url }}">
+            <img src="{{ site.social_media_url }}/{{ node.img }}" alt="{{ node.alt }}" width="35"  height="35"/>
+          </a>
+        {% endif %}
+      {% endfor %}
+<!--       <a href="https://github.com/exferro">
         <img src="{{ site.social_media_url }}/github.png" alt="GitHub" width="35"  height="35"/>
       </a>
       <a href="https://facebook.com/exferro">
@@ -38,7 +46,7 @@
       </a>
       <a href="https://vk.com/exferro">
         <img src="{{ site.social_media_url }}/vk.png" alt="VK" width="35"  height="35"/>
-      </a>
+      </a> -->
     </div>
   </div>
 </div>

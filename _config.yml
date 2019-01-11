@@ -34,6 +34,20 @@ navigation:
   - text: Publications
     url: "/publications"
 
+social_media:
+  - url: "https://facebook.com/exferro"
+    img: facebook.png
+    alt: Facebook
+  - url: "https://vk.com/exferro"
+    img: vk.png
+    alt: VK
+  - url: "https://github.com/exferro"
+    img: github.png
+    alt: GitHub
+  - url: "https://linkedin.com/in/exferro"
+    img: linkedin.png
+    alt: LinkedIn
+
 
 github:
   repo:           https://github.com/Exferro/exferro.github.io
