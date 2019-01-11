@@ -11,19 +11,17 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item active" href="{{ site.gh_baseurl }}">Home</a>
+<!--       <a class="sidebar-nav-item active" href="{{ site.gh_baseurl }}">Home</a> -->
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
 
-      {% assign pages_list = site.pages %}
+      {% assign pages_list = site.navigation %}
       {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="sidebar-nav-item active" href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
+        {% if node.text != null %}
+            <a class="sidebar-nav-item active" href="{{ node.url }}">{{ node.text }}</a>
         {% endif %}
       {% endfor %}
     </nav>

@@ -1,5 +1,4 @@
 # Dependencies
-markdown:         redcarpet
 highlighter:      rouge
 
 # Permalinks
@@ -22,6 +21,19 @@ github_username: exferro
 facebook_username: exferro
 
 paginate:         5
+
+navigation:
+  - text: Home
+    url: "/"
+  - text: Research
+    url: "/research"
+  - text: Projects
+    url: "/projects"
+  - text: Fun
+    url: "/fun"
+  - text: Publications
+    url: "/publications"
+
 
 github:
   repo:           https://github.com/Exferro/exferro.github.io
