@@ -23,11 +23,8 @@ facebook_username: exferro
 
 paginate:         5
 
-# Custom vars
-version:          0.1
-
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/Exferro/exferro.github.io
 
 plugins:
   - jekyll-paginate
