@@ -29,10 +29,14 @@ collections:
     output: true
   projects:
     output: true
+  fun:
+    output: true
 
 navigation:
   - text: Home
     url: "/"
+  - text: Who I Am
+    url: "/whoiam"
   - text: Research
     url: "/research"
   - text: Projects

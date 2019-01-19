@@ -7,22 +7,28 @@ title: Projects
 </div>
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% assign sorted_posts = site.projects | sort: 'order'%}
+
+  {% for post in sorted_posts %}
+  <hr>
+
   <div class="post">
-    <h1 class="post-title">
+    <h2 class="post-title">
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
-    </h1>
+    </h2>
+    <span class="post-date">{{ post.period }}</span>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    {{ post.excerpt }}
 
-    {{ post.content }}
-  </div>
+  </div>  
   {% endfor %}
+  
 </div>
 
-<div class="pagination">
+
+<!-- <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.gh_baseurl }}page{{paginator.next_page}}">Older</a>
   {% else %}
@@ -37,4 +43,4 @@ title: Projects
   {% else %}
     <span class="pagination-item newer">Newer</span>
   {% endif %}
-</div>
+</div> -->
