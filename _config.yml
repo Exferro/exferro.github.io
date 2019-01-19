@@ -48,20 +48,16 @@ navigation:
 
 social_media:
   - url: "https://facebook.com/exferro"
-    img: facebook.png
-    icon: facebook
+    icon: "fa fa-facebook"
     alt: Facebook
   - url: "https://vk.com/exferro"
-    img: "vk.png"
-    icon: vk
+    icon: "fa fa-vk"
     alt: VK
   - url: "https://github.com/exferro"
-    img: github.png
-    icon: github
+    icon: "fa fa-github"
     alt: GitHub
   - url: "https://linkedin.com/in/exferro"
-    img: linkedin.png
-    icon: linkedin
+    icon: "fa fa-linkedin"
     alt: LinkedIn
 
 

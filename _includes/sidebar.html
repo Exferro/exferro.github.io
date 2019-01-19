@@ -1,8 +1,11 @@
 <div class="sidebar">
+
   <div class="container ">
+
     <div style="align-content: center">
       <img src="{{ site.gh_baseurl }}public/img/Me.png" style="width: 13em; height: 13em; display: block; margin-left: auto;  margin-right: auto; ">
     </div>    
+
     <div class="sidebar-about">      
       <h1>
         <a href="{{ site.gh_baseurl }}">
@@ -27,13 +30,13 @@
       {% endfor %}
     </nav>
 
-    <div class="icon-bar" style="align-content: center">
+    <div class="icon-bar">
       {% assign social_media_links = site.social_media %}
       {% for social_media in social_media_links %}
-        {% if social_media.img != null %}
-          <a href="{{ social_media.url }}" class="fa fa-{{ social_media.icon }}"></a>
-        {% endif %}
+          <a href="{{ social_media.url }}" class="{{ social_media.icon }}"></a>
       {% endfor %}
     </div>
+
   </div>
+
 </div>

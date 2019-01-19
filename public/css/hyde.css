@@ -55,10 +55,12 @@ html {
 .icon-bar {
   width: 100%; /* Full-width */
   overflow: auto; /* Overflow due to float */
+  text-align: center;
 }
 
 .icon-bar a {
-  float: left; /* Float links side by side */
+  float: center; /* Float links side by side */
+  display: inline-block;
   text-align: center; /* Center-align text */
   width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
   padding: 12px 0; /* Some top and bottom padding */
