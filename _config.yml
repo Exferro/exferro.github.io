@@ -22,6 +22,14 @@ facebook_username: exferro
 
 paginate:         5
 
+collections_dir: my_collections
+
+collections:
+  research:
+    output: true
+  projects:
+    output: true
+
 navigation:
   - text: Home
     url: "/"
@@ -32,20 +40,24 @@ navigation:
   - text: Fun
     url: "/fun"
   - text: Publications
-    url: "/publications"
+    url: "/list_of_publications"
 
 social_media:
   - url: "https://facebook.com/exferro"
     img: facebook.png
+    icon: facebook
     alt: Facebook
   - url: "https://vk.com/exferro"
-    img: vk.png
+    img: "vk.png"
+    icon: vk
     alt: VK
   - url: "https://github.com/exferro"
     img: github.png
+    icon: github
     alt: GitHub
   - url: "https://linkedin.com/in/exferro"
     img: linkedin.png
+    icon: linkedin
     alt: LinkedIn
 
 

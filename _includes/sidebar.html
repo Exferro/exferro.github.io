@@ -11,7 +11,6 @@
     </div>
 
     <nav class="sidebar-nav">
-<!--       <a class="sidebar-nav-item active" href="{{ site.gh_baseurl }}">Home</a> -->
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -28,25 +27,14 @@
 
     <div class="icon-bar">
       {% assign social_media_links = site.social_media %}
-      {% for node in social_media_links %}
-        {% if node.img != null %}
-          <a href="{{ node.url }}">
-            <img src="{{ site.social_media_url }}/{{ node.img }}" alt="{{ node.alt }}" width="35"  height="35"/>
-          </a>
+      {% for social_media in social_media_links %}
+        {% if social_media.img != null %}
+          <a href="{{ social_media.url }}" class="fa fa-{{ social_media.icon }}"></a>
+<!--           <a href="{{ node.url }}">
+            <img src="{{ site.social_media_url }}/gray/{{ node.img }}" alt="{{ node.alt }}" width="35"  height="35"/>
+          </a> -->
         {% endif %}
       {% endfor %}
-<!--       <a href="https://github.com/exferro">
-        <img src="{{ site.social_media_url }}/github.png" alt="GitHub" width="35"  height="35"/>
-      </a>
-      <a href="https://facebook.com/exferro">
-        <img src="{{ site.social_media_url }}/facebook.png" alt="Facebook" width="35"  height="35" />
-      </a>
-      <a href="https://linkedin.com/in/exferro">
-        <img src="{{ site.social_media_url }}/linkedin.png" alt="LinkedIn" width="35"  height="35"/>
-      </a>
-      <a href="https://vk.com/exferro">
-        <img src="{{ site.social_media_url }}/vk.png" alt="VK" width="35"  height="35"/>
-      </a> -->
     </div>
   </div>
 </div>
