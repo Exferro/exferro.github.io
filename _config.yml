@@ -6,16 +6,15 @@ permalink:        pretty
 
 # Setup
 title:            Aleksei Malyshev
-tagline:          'Personal website'
-description:      ''
+tagline:          "Personal website"
+description:      "Aleksei Malyshev's Personal Website"
 url:              "https://alekseimalyshev.com"
 baseurl:          "/"
 gh_baseurl:       "/"
 social_media_url: "/public/img/icons"
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           "Aleksei Malyshev"
 
 github_username: exferro
 facebook_username: exferro
@@ -63,6 +62,8 @@ social_media:
 
 github:
   repo:           https://github.com/Exferro/exferro.github.io
+  url: "https://alekseimalyshev.com"
 
 plugins:
   - jekyll-paginate
+  - jekyll-seo-tag
