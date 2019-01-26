@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Who I Am
+title: Where the Story Begins
 image_path: "/public/img/whoiam"
 image_num: 5
 images:
