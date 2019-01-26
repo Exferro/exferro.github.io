@@ -2,7 +2,7 @@
 layout: page
 title: Publications
 ---
-Here is the list of my publications
+Here is the list of my publications (have I already mentioned that this page is rather boring?)
 
 ## Journal papers
 <ol reversed>
