@@ -44,7 +44,7 @@ And, of course, there were a constant presence of the legendary Phystech in our 
 	{% assign images = page.images %}
  	{% for image in page.images %}
  		<div class="mySlides fade">
-			<div class="numbertext"> {{ image.idx}} / {{ page.image_num }}</div>
+<!-- 			<div class="numbertext"> {{ image.idx}} / {{ page.image_num }}</div> -->
 			<img src="{{ page.image_path }}{{ image.url }}" style="height:17em; display: block; margin-left: auto;  margin-right: auto; ">    
 		</div>
  	{% endfor %}
