@@ -281,7 +281,7 @@ a.sidebar-nav-item:focus {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 25em;
   position: relative;
   margin: auto;
 }
