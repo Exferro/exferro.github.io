@@ -1,6 +1,11 @@
 ---
 layout: page
 title: Where the Story Begins
+
+period: School years
+
+order: 80
+
 image_path: "/public/img/whoiam"
 image_num: 5
 images:
@@ -20,13 +25,15 @@ images:
    idx: 5
    caption: "Photo before leaving the school. Ivan Ivanovich says that an ability to integrate at school doesn't represent one's mental qualities. But of course, it makes one much <b>cooler</b>, so he may use sign of the horns at any moment. We were in one step from attending the university, so we decided hands full of \"horns\" would be the right option to show our expectations!"
 
-
+excerpt_separator: <!--more-->
 ---
 It was Saturday and my eighth year at school had just began. I was going to the first lesson of elective on Physics. I wasn't really in the mood — month before that I had started visiting sailing lessons — of course, I would have preferred to spend another September evening with staysails and spinnakers! Moreover, I had already visited several lessons of Math elective and they weren't a pleasure trip, not in a tiny bit — they were bringing my mind to new levels with the price of headache.
 
 Nevertheless, my Mom insisted that I had attended at least first lesson on Physics, just to compare. I obeyed, what else could I have done.
 
 That changed **everything** (Mom, thank you!).
+
+<!--more-->
 
 Supposedly boring lessons turned out to be a great time of curiosity, discoveries and a wit. It was Ivan Ivanovich, our Physics tutor, who lead us through the adventurous and bright world of Physics, full of its unique humor. 
 

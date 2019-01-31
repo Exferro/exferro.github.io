@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Research
+title: Personal
 ---
 <!-- <div class='page'> 
-  Here I will add soon tales about my research: QKD and SIC-POVM at the moment, and URLLC and 5G in the past (and who knows what's next!).
-</div> -->
-
+  Finally, here I will tell you about all my side occupations: campus radio MIPT, filmmaking at Gogol-School and others.
+</div>
+ -->
 <hr>
 
 <div class="posts">
-  {% assign sorted_posts = site.research | sort: 'order'%}
-  {% for post in sorted_posts %}
+  {% assign sorted_posts = site.personal| sort: 'order'%}
+  {% for post in sorted_posts %}  
 
     <div class="post">
       <h2 class="post-title">
@@ -22,8 +22,8 @@ title: Research
 
       {{ post.excerpt }}
       <a href="{{ post.url }}">Read more >></a>
-      <hr> 
-         
-    </div> 
-  {% endfor %}  
+      <hr>    
+      
+    </div>  
+  {% endfor %}
 </div>

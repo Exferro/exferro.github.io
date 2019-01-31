@@ -2,45 +2,28 @@
 layout: page
 title: Hobbies
 ---
-<div class='page'> 
+<!-- <div class='page'> 
   Finally, here I will tell you about all my side occupations: campus radio MIPT, filmmaking at Gogol-School and others.
-</div>
+</div> -->
+
+<hr>
 
 <div class="posts">
   {% assign sorted_posts = site.hobbies| sort: 'order'%}
-
   {% for post in sorted_posts %}
-  <hr>
 
-  <div class="post">
-    <h2 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-    <span class="post-date">{{ post.period }}</span>
+    <div class="post">
+      <h2 class="post-title">
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h2>
+      <span class="post-date">{{ post.period }}</span>
 
-    {{ post.excerpt }}
+      {{ post.excerpt }}
+      <a href="{{ post.url }}">Read more >></a>
+      <hr>
 
-  </div>  
-  {% endfor %}
-  
+    </div>  
+  {% endfor %}  
 </div>
-
-
-<!-- <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.gh_baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.gh_baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.gh_baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div> -->

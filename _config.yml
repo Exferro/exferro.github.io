@@ -30,6 +30,8 @@ collections:
     output: true
   hobbies:
     output: true
+  personal:
+    output: true
 
 navigation:
   - text: Home
@@ -40,8 +42,8 @@ navigation:
     url: "/projects"
   - text: Hobbies
     url: "/hobbies"    
-  - text: Where the Story Begins
-    url: "/whoiam"
+  - text: Personal
+    url: "/personal"
   - text: Publications
     url: "/list_of_publications"
 
@@ -61,7 +63,7 @@ social_media:
 
 
 github:
-  repo:           https://github.com/Exferro/exferro.github.io
+  repo: https://github.com/Exferro/exferro.github.io
   url: "https://alekseimalyshev.com"
 
 plugins:
